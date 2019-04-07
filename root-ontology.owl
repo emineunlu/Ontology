@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/RyNhvWIoM404FSKCBaAEc#"
+     xml:base="http://webprotege.stanford.edu/project/RyNhvWIoM404FSKCBaAEc"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/RyNhvWIoM404FSKCBaAEc"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R942DZsicuyN6D8WrPS3hmb -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R942DZsicuyN6D8WrPS3hmb">
+        <rdfs:label>about</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#about -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#about">
+        <rdfs:label>rdfs:about</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R78gbQoUvcDhg4zkXWJTfpr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R78gbQoUvcDhg4zkXWJTfpr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rjxzd0ZAHDYv1waoVZH2X4"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of people who come together to play music.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blues Singers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7khpzey5blQ3FGjVBBX6kE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7khpzey5blQ3FGjVBBX6kE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCiVMSt1jXxFBLxTKyN44Yi"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vast music genre that can be similar to pop music, or completely different.</rdfs:comment>
+        <rdfs:label>Alternative</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.urbandictionary.com/define.php?term=Alternative%20Music"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8BszjBxQOhmW7qnuBf7cl0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8BszjBxQOhmW7qnuBf7cl0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD1jxhK9bTnEn4dLCXnTH1C"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of people who come together to play music.</rdfs:comment>
+        <rdfs:label>College Rock Bands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R91Jk80l738K9YdmYbYfAgc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R91Jk80l738K9YdmYbYfAgc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCiVMSt1jXxFBLxTKyN44Yi"/>
+        <rdfs:about xml:lang="en">Children&apos;s music or kids&apos; music is music composed and performed for children.</rdfs:about>
+        <rdfs:label>Children’s Music</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Children%27s_music"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCiVMSt1jXxFBLxTKyN44Yi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCiVMSt1jXxFBLxTKyN44Yi">
+        <rdfs:about rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Music is an art form and cultural activity whose medium is sound organized in time.</rdfs:about>
+        <rdfs:label>Musics</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Music"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1jxhK9bTnEn4dLCXnTH1C -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD1jxhK9bTnEn4dLCXnTH1C">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7khpzey5blQ3FGjVBBX6kE"/>
+        <rdfs:about rdf:datatype="http://www.w3.org/2001/XMLSchema#string">College rock was the alternative rock music played on student-run university and college campus radio stations located in the United States and Canada in the 1980s.</rdfs:about>
+        <rdfs:label>College Rock</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/College_rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDSCCz7rhy8D4bSmWjOBbyV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDSCCz7rhy8D4bSmWjOBbyV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R78gbQoUvcDhg4zkXWJTfpr"/>
+        <rdfs:about rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B.B. King is an American blues musician, singer, songwriter, and guitarist.</rdfs:about>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B.B. King</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/B.B._King"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDfP59JHgyCS00jAM6s1WU8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDfP59JHgyCS00jAM6s1WU8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCiVMSt1jXxFBLxTKyN44Yi"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">typically is a fan-made music video</rdfs:comment>
+        <rdfs:label>Anime</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Anime_music_video"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDxXIYtPcmWnRKJJmHq6cWl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDxXIYtPcmWnRKJJmHq6cWl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8BszjBxQOhmW7qnuBf7cl0"/>
+        <rdfs:about rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R.E.M. was an American rock band from Athens, Georgia, formed in 1980 by drummer Bill Berry, guitarist Peter Buck, bassist/backing vocalist Mike Mills, and lead vocalist Michael Stipe.</rdfs:about>
+        <rdfs:label>R.E.M</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/R.E.M."/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rjxzd0ZAHDYv1waoVZH2X4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rjxzd0ZAHDYv1waoVZH2X4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCiVMSt1jXxFBLxTKyN44Yi"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blues is a music genre</rdfs:comment>
+        <rdfs:label>Blues</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Blues"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.10) https://github.com/owlcs/owlapi -->
+
